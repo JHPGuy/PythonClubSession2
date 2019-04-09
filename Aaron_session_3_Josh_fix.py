@@ -3,7 +3,7 @@ def calculator():
     # 3 errors in this section
 
     #clear the screen a little
-    print ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+    print ("\n")
     print ("This calculator only works with the number 3\n") #challenge, can you make it work with 2 user inputs
     print ("1. Add")
     print ("2. Subtract")
@@ -32,7 +32,7 @@ def palindrome_checker():
     # 3 errors in this section
 
 #    clear the screen a little
-    print ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+    print ("\n")
 
 
     #Challenge - how to make this case insensitive
