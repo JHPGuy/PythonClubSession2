@@ -19,7 +19,7 @@ def calculator():
         print ("\nThe difference of 3 from ", user_number, " is: ", float(user_number) - 3)
     elif (user_input == "3"):
         print ("\nThe product of 3 and ", user_number, " is: ", int(user_number) * 3)
-    elif (user_input == "3"):
+    elif (user_input == "4"):
         print ("\nThe quotient of 3 from ", user_number, " is: ", float(user_number) / 3) #what happens if int is used instead of float?
     else:
         print ("\n\nFail\n\n")
@@ -37,7 +37,7 @@ def palindrome_checker():
 
     #Challenge - how to make this case insensitive
     user_input = input("Enter a word or phrase to check: ")
-    reveresed_user_input = reversed(reveresed_user_input) #find the reverse user_input of the string
+    reveresed_user_input = reversed(user_input) #find the reverse user_input of the string
 
     if (list(user_input) == list(reveresed_user_input)):
         print ("\n", user_input, " is a palindrome")
